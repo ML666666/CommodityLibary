@@ -1,0 +1,30 @@
+#EntitiesFrom{
+    display: flex;
+    justify-content: space-between;
+}
+
+#EntitiesFrom .inputWrapper{
+    width: 600px;
+}
+#EntitiesFrom .inputWrapper .itemWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+#EntitiesFrom .inputWrapper .ant-input{
+    width: 100%;
+}
+#EntitiesFrom .inputWrapper .itemWrapper .ant-input{
+    width: 46.5%;
+}
+#EntitiesFrom .inputWrapper .itemWrapper .ant-select{
+    width: 46.5%;
+    margin-right: 0px !important;
+}
+#EntitiesFrom .UpLoadImg{
+
+}
+.ant-cascader-picker .ant-input{
+    margin-bottom: 0px !important;
+}
+.ant-cascader-picker-arrow{}
+   

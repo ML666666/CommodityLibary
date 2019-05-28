@@ -1,0 +1,22 @@
+.t_T_O_item{
+    position: relative;
+    display: block;
+    padding: 5px 12px;
+    line-height: 22px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.65);
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-transition:  0.3s ease;
+    transition:  0.3s ease;
+    display: flex;
+    justify-content: space-between;
+}
+.t_T_O_item:hover{
+    color: rgba(24, 144, 255, 1);
+}
+.t_T_O_item_Active{
+    color: rgba(24, 144, 255, 1);
+}

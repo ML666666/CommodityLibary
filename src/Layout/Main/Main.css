@@ -1,0 +1,30 @@
+.React_App_Body_Wrapper{
+    width: 1750px;
+    min-height: 500px;
+    background: #fff;
+    border-radius: 4px;
+    margin-left: 40px;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+.fade-enter{
+    　　opacity: 0;
+    }
+.fade-enter-active .fade-appear{
+    　　opacity: 1;
+    　　transition: opacity 1s ease-in;
+}
+.fade-enter-done{
+    　　opacity: 1;
+}
+.fade-exit{
+    　　opacity: 1;
+}
+.fade-exit-active{
+    　　opacity: 0;
+    　　transition: opacity 1s ease-in;
+}
+.fade-exit-done{
+        transition: opacity 1s ease-in;
+    　　opacity: 0;
+}

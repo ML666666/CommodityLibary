@@ -1,0 +1,52 @@
+.TopWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.TopWrapper .SreachWrapper{
+    display: flex;
+    justify-content: flex-start;
+}
+.TopWrapper .InputWrappr{
+    width: 200px;
+    margin-right: 15px;
+}
+.TopWrapper .AddWrapper .ant-btn{
+    margin-left: 15px;
+}
+.Table_control_Wrapper .ant-btn{
+    margin-left: 15px !important;
+}
+.ant-modal-body .ant-input{
+    margin-bottom: 15px !important;
+}
+.ant-calendar-picker-clear, .ant-calendar-picker-icon{
+    margin-top: -15px !important;
+}
+.ant-modal-body .ant-input-number{
+    margin-bottom: 15px !important;
+}
+.ant-modal-body{
+    padding: 21px !important;
+}
+.tableExtend .item{
+    margin-bottom: 16px;
+}
+.tableExtend .item span{
+    margin-left: 10px;
+}
+._title{
+    color: #666;
+    margin-bottom: 8px;
+    position: relative;
+}
+.ant-modal .ant-pagination{
+    margin: 0 !important;
+    float: right;
+}
+.ant-cascader-picker{
+    margin-bottom: 15px !important;
+}
+.ant-cascader-picker .ant-input{
+    margin-bottom: 0px !important;
+}

@@ -1,0 +1,27 @@
+.React_App_Header_Wrapper{
+    position: fixed;
+    display: flex;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 71px;
+    background: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 36px;
+    z-index: 1000;
+    box-shadow: 0 0 8px rgba(0,0,0,.08);
+}
+.React_App_Header_Wrapper h2{
+    color: #666;
+    font-size: 24px;
+    text-align: center;
+}
+.React_App_Header_Wrapper .list{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.React_App_Header_Wrapper .list a{
+
+}

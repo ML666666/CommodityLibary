@@ -7,10 +7,10 @@ let gob = {
             return "/api" 
         }
         if(window.location.href.indexOf("youhuiduo.cn")>-1){
-            return "https://gate.youhuiduo.cn/sy_new_customer_2019/"
+            return "https://xxxx/"
         }
         if(window.location.href.indexOf("ujinbi.com")>-1){
-            return "https://gate.ujinbi.com/sy_new_customer_2019/"
+            return "https://xxxxxxxxx/"
         }
     },
     webUrl:function(){
@@ -18,10 +18,10 @@ let gob = {
             return "http://192.168.18.54:11015/" 
         }
         if(window.location.href.indexOf("youhuiduo.cn")>-1){
-            return "https://gate.youhuiduo.cn/sy_new_customer_2019/"
+            return "https://xxxx/"
         }
         if(window.location.href.indexOf("ujinbi.com")>-1){
-            return "https://gate.ujinbi.com/sy_new_customer_2019/"
+            return "https://xxxxx"
         }
     },
     post:function(url,data){
